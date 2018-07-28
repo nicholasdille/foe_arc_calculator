@@ -1,5 +1,10 @@
+body {
+    font-size: x-large;
+}
+
 table {
     border-collapse: collapse;
+    font-size: large;
 }
 
 table, th, td {
@@ -19,4 +24,8 @@ th {
 
 td.center {
     text-align: center;
+}
+
+input, select {
+    font-size: large;
 }
