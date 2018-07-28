@@ -30,6 +30,6 @@ deploy_script:
 
     echo -e "cd www\ncd arc" > sftp
 
-    ls *.html *.css *.js *.json | while FILE; do echo -e "put ${FILE}" >> sftp; done
+    ls *.html *.css *.js *.json | while read FILE; do echo -e "put ${FILE}" >> sftp; done
 
     /home/appveyor/projects/passh/passh -p $sftppass bash -c "sftp -o BatchMode=no -o StrictHostKeyChecking=no -b sftp $sftpuser@$sftphost"
