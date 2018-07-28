@@ -1,1 +1,1 @@
-# foe_arc_calculator
+# Calculator for leveling the Arc in Forge of Empires
