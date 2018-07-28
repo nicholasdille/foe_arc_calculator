@@ -10,7 +10,7 @@
 
 <p>Support-Multiplikator: <input type="text" value="1.8" id="bonus" onchange="displayLevel();"></input></p>
 
-<p>Level: <select size="1" id="level" onchange="displayLevel();"><option></option></select> FP=<span id="research_points"></span></p>
+<p>Level: <select size="1" id="level" onchange="displayLevel();"><option></option></select> (erfordert <span id="research_points"></span> FP)</p>
 
 <table>
     <thead>
@@ -25,38 +25,35 @@
     </thead>
     <tr>
         <th>FP</th>
-        <th><span id="p1_rp"></span></th>
-        <th><span id="p2_rp"></span></th>
-        <th><span id="p3_rp"></span></th>
-        <th><span id="p4_rp"></span></th>
-        <th><span id="p5_rp"></span></th>
-        <th><span id="rp_rest"></span></th>
+        <td><span id="p1_rp"></span></td>
+        <td><span id="p2_rp"></span></td>
+        <td><span id="p3_rp"></span></td>
+        <td><span id="p4_rp"></span></td>
+        <td><span id="p5_rp"></span></td>
+        <td><span id="rp_rest"></span></td>
     </tr>
     <tr>
         <th>FP2</th>
-        <th><span id="p1_rp2"></span></th>
-        <th><span id="p2_rp2"></span></th>
-        <th><span id="p3_rp2"></span></th>
-        <th><span id="p4_rp2"></span></th>
-        <th><span id="p5_rp2"></span></th>
-        <th><span id="rp2_rest"></span></th>
-        <th><span id="rp2_advantage"></span></th>
+        <td><span id="p1_rp2"></span></td>
+        <td><span id="p2_rp2"></span></td>
+        <td><span id="p3_rp2"></span></td>
+        <td><span id="p4_rp2"></span></td>
+        <td><span id="p5_rp2"></span></td>
+        <td><span id="rp2_rest"></span></td>
+        <td><span id="rp2_advantage"></span></td>
     </tr>
     <tr>
-        <th>Safe</th>
-        <th colspan="2"><span id="p12_rp2_safe">?</span></th>
+        <th rowspan="4">Safe</th>
+        <td colspan="2" class="center"><span id="p12_rp2_safe">?</span></td>
     </tr>
     <tr>
-        <th>Safe</th>
-        <th colspan="3"><span id="p123_rp2_safe">?</span></th>
+        <td colspan="3" class="center"><span id="p123_rp2_safe">?</span></td>
     </tr>
     <tr>
-        <th>Safe</th>
-        <th colspan="4"><span id="p1234_rp2_safe">?</span></th>
+        <td colspan="4" class="center"><span id="p1234_rp2_safe">?</span></td>
     </tr>
     <tr>
-        <th>Safe</th>
-        <th colspan="5"><span id="p12345_rp2_safe">?</span></th>
+        <td colspan="5" class="center"><span id="p12345_rp2_safe">?</span></td>
     </tr>
 </table>
 

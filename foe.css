@@ -12,3 +12,11 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td.center {
+    text-align: center;
+}
