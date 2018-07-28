@@ -1,0 +1,4191 @@
+{
+  "era": [
+    {
+      "id": 13,
+      "name": {
+        "en": "Future",
+        "de": "Zukunft"
+      }
+    }
+  ],
+  "goods": [
+    {
+      "id": 131,
+      "era": 13,
+      "name": {
+        "en": "Biogeochemical Data",
+        "de": "Biogeochemische Daten"
+      }
+    },
+    {
+      "id": 132,
+      "era": 13,
+      "name": {
+        "en": "Purified Water",
+        "de": "Reines Wasser"
+      }
+    },
+    {
+      "id": 133,
+      "era": 13,
+      "name": {
+        "en": "Algae",
+        "de": "Algen"
+      }
+    },
+    {
+      "id": 134,
+      "era": 13,
+      "name": {
+        "en": "Superconductors",
+        "de": "Supraleiter"
+      }
+    },
+    {
+      "id": 135,
+      "era": 13,
+      "name": {
+        "en": "Nanoparticles",
+        "de": "Nanopartikel"
+      }
+    }
+  ],
+  "buildings": {
+    "great": [
+      {
+        "name": {
+          "en": "Arc",
+          "de": "Arche"
+        },
+        "era": 13,
+        "size": "7x5",
+        "goods": [
+          {
+            "good": 131,
+            "amount": 350
+          },
+          {
+            "good": 132,
+            "amount": 450
+          },
+          {
+            "good": 133,
+            "amount": 300
+          },
+          {
+            "good": 134,
+            "amount": 400
+          },
+          {
+            "good": 135,
+            "amount": 375
+          }
+        ],
+        "levels": [
+          {
+            "guild_goods": 9,
+            "research_points": 70,
+            "level": 1,
+            "bonus": 0.1
+          },
+          {
+            "guild_goods": 10,
+            "research_points": 110,
+            "level": 2,
+            "bonus": 0.12
+          },
+          {
+            "guild_goods": 12,
+            "research_points": 200,
+            "level": 3,
+            "bonus": 0.14
+          },
+          {
+            "guild_goods": 13,
+            "research_points": 290,
+            "level": 4,
+            "bonus": 0.17
+          },
+          {
+            "guild_goods": 15,
+            "research_points": 400,
+            "level": 5,
+            "bonus": 0.19
+          },
+          {
+            "guild_goods": 16,
+            "research_points": 510,
+            "level": 6,
+            "bonus": 0.22
+          },
+          {
+            "guild_goods": 18,
+            "research_points": 620,
+            "level": 7,
+            "bonus": 0.24
+          },
+          {
+            "guild_goods": 19,
+            "research_points": 740,
+            "level": 8,
+            "bonus": 0.26
+          },
+          {
+            "guild_goods": 21,
+            "research_points": 860,
+            "level": 9,
+            "bonus": 0.29
+          },
+          {
+            "guild_goods": 22,
+            "research_points": 970,
+            "level": 10,
+            "bonus": 0.31
+          },
+          {
+            "guild_goods": 24,
+            "research_points": 995,
+            "level": 11,
+            "bonus": 0.32
+          },
+          {
+            "guild_goods": 26,
+            "research_points": 1020,
+            "level": 12,
+            "bonus": 0.33
+          },
+          {
+            "guild_goods": 28,
+            "research_points": 1045,
+            "level": 13,
+            "bonus": 0.34
+          },
+          {
+            "guild_goods": 30,
+            "research_points": 1071,
+            "level": 14,
+            "bonus": 0.35
+          },
+          {
+            "guild_goods": 32,
+            "research_points": 1098,
+            "level": 15,
+            "bonus": 0.36
+          },
+          {
+            "guild_goods": 34,
+            "research_points": 1125,
+            "level": 16,
+            "bonus": 0.37
+          },
+          {
+            "guild_goods": 36,
+            "research_points": 1154,
+            "level": 17,
+            "bonus": 0.38
+          },
+          {
+            "guild_goods": 38,
+            "research_points": 1182,
+            "level": 18,
+            "bonus": 0.39
+          },
+          {
+            "guild_goods": 40,
+            "research_points": 1212,
+            "level": 19,
+            "bonus": 0.4
+          },
+          {
+            "guild_goods": 42,
+            "research_points": 1242,
+            "level": 20,
+            "bonus": 0.41
+          },
+          {
+            "guild_goods": 44,
+            "research_points": 1273,
+            "level": 21,
+            "bonus": 0.42
+          },
+          {
+            "guild_goods": 46,
+            "research_points": 1305,
+            "level": 22,
+            "bonus": 0.43
+          },
+          {
+            "guild_goods": 48,
+            "research_points": 1338,
+            "level": 23,
+            "bonus": 0.44
+          },
+          {
+            "guild_goods": 50,
+            "research_points": 1371,
+            "level": 24,
+            "bonus": 0.45
+          },
+          {
+            "guild_goods": 52,
+            "research_points": 1405,
+            "level": 25,
+            "bonus": 0.46
+          },
+          {
+            "guild_goods": 54,
+            "research_points": 1440,
+            "level": 26,
+            "bonus": 0.47
+          },
+          {
+            "guild_goods": 56,
+            "research_points": 1476,
+            "level": 27,
+            "bonus": 0.48
+          },
+          {
+            "guild_goods": 58,
+            "research_points": 1513,
+            "level": 28,
+            "bonus": 0.49
+          },
+          {
+            "guild_goods": 60,
+            "research_points": 1551,
+            "level": 29,
+            "bonus": 0.5
+          },
+          {
+            "guild_goods": 62,
+            "research_points": 1590,
+            "level": 30,
+            "bonus": 0.51
+          },
+          {
+            "guild_goods": 64,
+            "research_points": 1630,
+            "level": 31,
+            "bonus": 0.52
+          },
+          {
+            "guild_goods": 66,
+            "research_points": 1670,
+            "level": 32,
+            "bonus": 0.53
+          },
+          {
+            "guild_goods": 68,
+            "research_points": 1712,
+            "level": 33,
+            "bonus": 0.54
+          },
+          {
+            "guild_goods": 70,
+            "research_points": 1755,
+            "level": 34,
+            "bonus": 0.55
+          },
+          {
+            "guild_goods": 72,
+            "research_points": 1799,
+            "level": 35,
+            "bonus": 0.56
+          },
+          {
+            "guild_goods": 74,
+            "research_points": 1844,
+            "level": 36,
+            "bonus": 0.57
+          },
+          {
+            "guild_goods": 76,
+            "research_points": 1890,
+            "level": 37,
+            "bonus": 0.58
+          },
+          {
+            "guild_goods": 78,
+            "research_points": 1937,
+            "level": 38,
+            "bonus": 0.59
+          },
+          {
+            "guild_goods": 80,
+            "research_points": 1986,
+            "level": 39,
+            "bonus": 0.6
+          },
+          {
+            "guild_goods": 82,
+            "research_points": 2035,
+            "level": 40,
+            "bonus": 0.61
+          },
+          {
+            "guild_goods": 84,
+            "research_points": 2086,
+            "level": 41,
+            "bonus": 0.62
+          },
+          {
+            "guild_goods": 86,
+            "research_points": 2138,
+            "level": 42,
+            "bonus": 0.63
+          },
+          {
+            "guild_goods": 88,
+            "research_points": 2192,
+            "level": 43,
+            "bonus": 0.64
+          },
+          {
+            "guild_goods": 90,
+            "research_points": 2246,
+            "level": 44,
+            "bonus": 0.65
+          },
+          {
+            "guild_goods": 92,
+            "research_points": 2303,
+            "level": 45,
+            "bonus": 0.66
+          },
+          {
+            "guild_goods": 94,
+            "research_points": 2360,
+            "level": 46,
+            "bonus": 0.67
+          },
+          {
+            "guild_goods": 96,
+            "research_points": 2419,
+            "level": 47,
+            "bonus": 0.68
+          },
+          {
+            "guild_goods": 98,
+            "research_points": 2480,
+            "level": 48,
+            "bonus": 0.69
+          },
+          {
+            "guild_goods": 100,
+            "research_points": 2541,
+            "level": 49,
+            "bonus": 0.7
+          },
+          {
+            "guild_goods": 102,
+            "research_points": 2605,
+            "level": 50,
+            "bonus": 0.71
+          },
+          {
+            "guild_goods": 104,
+            "research_points": 2670,
+            "level": 51,
+            "bonus": 0.72
+          },
+          {
+            "guild_goods": 106,
+            "research_points": 2737,
+            "level": 52,
+            "bonus": 0.73
+          },
+          {
+            "guild_goods": 108,
+            "research_points": 2805,
+            "level": 53,
+            "bonus": 0.74
+          },
+          {
+            "guild_goods": 110,
+            "research_points": 2875,
+            "level": 54,
+            "bonus": 0.75
+          },
+          {
+            "guild_goods": 112,
+            "research_points": 2947,
+            "level": 55,
+            "bonus": 0.76
+          },
+          {
+            "guild_goods": 114,
+            "research_points": 3021,
+            "level": 56,
+            "bonus": 0.77
+          },
+          {
+            "guild_goods": 116,
+            "research_points": 3096,
+            "level": 57,
+            "bonus": 0.78
+          },
+          {
+            "guild_goods": 118,
+            "research_points": 3174,
+            "level": 58,
+            "bonus": 0.79
+          },
+          {
+            "guild_goods": 120,
+            "research_points": 3253,
+            "level": 59,
+            "bonus": 0.795
+          },
+          {
+            "guild_goods": 122,
+            "research_points": 3334,
+            "level": 60,
+            "bonus": 0.8
+          },
+          {
+            "guild_goods": 124,
+            "research_points": 3418,
+            "level": 61,
+            "bonus": 0.805
+          },
+          {
+            "guild_goods": 126,
+            "research_points": 3503,
+            "level": 62,
+            "bonus": 0.81
+          },
+          {
+            "guild_goods": 128,
+            "research_points": 3591,
+            "level": 63,
+            "bonus": 0.815
+          },
+          {
+            "guild_goods": 130,
+            "research_points": 3681,
+            "level": 64,
+            "bonus": 0.82
+          },
+          {
+            "guild_goods": 132,
+            "research_points": 3773,
+            "level": 65,
+            "bonus": 0.825
+          },
+          {
+            "guild_goods": 134,
+            "research_points": 3867,
+            "level": 66,
+            "bonus": 0.83
+          },
+          {
+            "guild_goods": 136,
+            "research_points": 3964,
+            "level": 67,
+            "bonus": 0.835
+          },
+          {
+            "guild_goods": 138,
+            "research_points": 4063,
+            "level": 68,
+            "bonus": 0.84
+          },
+          {
+            "guild_goods": 140,
+            "research_points": 4164,
+            "level": 69,
+            "bonus": 0.845
+          },
+          {
+            "guild_goods": 142,
+            "research_points": 4268,
+            "level": 70,
+            "bonus": 0.85
+          },
+          {
+            "guild_goods": 144,
+            "research_points": 4375,
+            "level": 71,
+            "bonus": 0.855
+          },
+          {
+            "guild_goods": 146,
+            "research_points": 4484,
+            "level": 72,
+            "bonus": 0.86
+          },
+          {
+            "guild_goods": 148,
+            "research_points": 4596,
+            "level": 73,
+            "bonus": 0.865
+          },
+          {
+            "guild_goods": 150,
+            "research_points": 4711,
+            "level": 74,
+            "bonus": 0.87
+          },
+          {
+            "guild_goods": 152,
+            "research_points": 4829,
+            "level": 75,
+            "bonus": 0.875
+          },
+          {
+            "guild_goods": 154,
+            "research_points": 4950,
+            "level": 76,
+            "bonus": 0.88
+          },
+          {
+            "guild_goods": 156,
+            "research_points": 5074,
+            "level": 77,
+            "bonus": 0.885
+          },
+          {
+            "guild_goods": 158,
+            "research_points": 5200,
+            "level": 78,
+            "bonus": 0.89
+          },
+          {
+            "guild_goods": 160,
+            "research_points": 5330,
+            "level": 79,
+            "bonus": 0.895
+          },
+          {
+            "guild_goods": 162,
+            "research_points": 5464,
+            "level": 80,
+            "bonus": 0.9
+          },
+          {
+            "guild_goods": 164,
+            "research_points": 5600,
+            "level": 81,
+            "bonus": 0.9009999847412109
+          },
+          {
+            "guild_goods": 166,
+            "research_points": 5740,
+            "level": 82,
+            "bonus": 0.90199996948242189
+          },
+          {
+            "guild_goods": 168,
+            "research_points": 5884,
+            "level": 83,
+            "bonus": 0.90300003051757816
+          },
+          {
+            "guild_goods": 170,
+            "research_points": 6031,
+            "level": 84,
+            "bonus": 0.904000015258789
+          },
+          {
+            "guild_goods": 172,
+            "research_points": 6182,
+            "level": 85,
+            "bonus": 0.905
+          },
+          {
+            "guild_goods": 174,
+            "research_points": 6336,
+            "level": 86,
+            "bonus": 0.90599998474121091
+          },
+          {
+            "guild_goods": 176,
+            "research_points": 6494,
+            "level": 87,
+            "bonus": 0.9069999694824219
+          },
+          {
+            "guild_goods": 178,
+            "research_points": 6657,
+            "level": 88,
+            "bonus": 0.90800003051757816
+          },
+          {
+            "guild_goods": 180,
+            "research_points": 6823,
+            "level": 89,
+            "bonus": 0.909000015258789
+          },
+          {
+            "guild_goods": 182,
+            "research_points": 6994,
+            "level": 90,
+            "bonus": 0.91
+          },
+          {
+            "guild_goods": 184,
+            "research_points": 7169,
+            "level": 91,
+            "bonus": 0.91099998474121091
+          },
+          {
+            "guild_goods": 186,
+            "research_points": 7348,
+            "level": 92,
+            "bonus": 0.9119999694824219
+          },
+          {
+            "guild_goods": 188,
+            "research_points": 7531,
+            "level": 93,
+            "bonus": 0.91300003051757816
+          },
+          {
+            "guild_goods": 190,
+            "research_points": 7720,
+            "level": 94,
+            "bonus": 0.914000015258789
+          },
+          {
+            "guild_goods": 192,
+            "research_points": 7913,
+            "level": 95,
+            "bonus": 0.915
+          },
+          {
+            "guild_goods": 194,
+            "research_points": 8111,
+            "level": 96,
+            "bonus": 0.91599998474121092
+          },
+          {
+            "guild_goods": 196,
+            "research_points": 8313,
+            "level": 97,
+            "bonus": 0.91699996948242191
+          },
+          {
+            "guild_goods": 198,
+            "research_points": 8521,
+            "level": 98,
+            "bonus": 0.91800003051757817
+          },
+          {
+            "guild_goods": 200,
+            "research_points": 8734,
+            "level": 99,
+            "bonus": 0.919000015258789
+          },
+          {
+            "guild_goods": 202,
+            "research_points": 8952,
+            "level": 100,
+            "bonus": 0.92
+          }
+        ],
+        "rewards": [
+          {
+            "level": 1,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 10,
+                "blueprints": 0,
+                "medals": 204
+              },
+              {
+                "position": 2,
+                "research_points": 5,
+                "blueprints": 0,
+                "medals": 102
+              },
+              {
+                "position": 3,
+                "research_points": 0,
+                "blueprints": 0,
+                "medals": 51
+              },
+              {
+                "position": 4,
+                "research_points": 0,
+                "blueprints": 0,
+                "medals": 20
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 0,
+                "medals": 10
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 15,
+                "blueprints": 1,
+                "medals": 280
+              },
+              {
+                "position": 2,
+                "research_points": 10,
+                "blueprints": 0,
+                "medals": 140
+              },
+              {
+                "position": 3,
+                "research_points": 5,
+                "blueprints": 0,
+                "medals": 70
+              },
+              {
+                "position": 4,
+                "research_points": 0,
+                "blueprints": 0,
+                "medals": 28
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 0,
+                "medals": 14
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 25,
+                "blueprints": 1,
+                "medals": 560
+              },
+              {
+                "position": 2,
+                "research_points": 15,
+                "blueprints": 1,
+                "medals": 280
+              },
+              {
+                "position": 3,
+                "research_points": 5,
+                "blueprints": 1,
+                "medals": 140
+              },
+              {
+                "position": 4,
+                "research_points": 0,
+                "blueprints": 0,
+                "medals": 56
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 0,
+                "medals": 28
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 35,
+                "blueprints": 1,
+                "medals": 815
+              },
+              {
+                "position": 2,
+                "research_points": 20,
+                "blueprints": 1,
+                "medals": 408
+              },
+              {
+                "position": 3,
+                "research_points": 5,
+                "blueprints": 1,
+                "medals": 204
+              },
+              {
+                "position": 4,
+                "research_points": 0,
+                "blueprints": 1,
+                "medals": 82
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 1,
+                "medals": 41
+              }
+            ]
+          },
+          {
+            "level": 5,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 45,
+                "blueprints": 2,
+                "medals": 1
+              },
+              {
+                "position": 2,
+                "research_points": 25,
+                "blueprints": 1,
+                "medals": 561
+              },
+              {
+                "position": 3,
+                "research_points": 10,
+                "blueprints": 1,
+                "medals": 280
+              },
+              {
+                "position": 4,
+                "research_points": 5,
+                "blueprints": 1,
+                "medals": 112
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 1,
+                "medals": 56
+              }
+            ]
+          },
+          {
+            "level": 6,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 60,
+                "blueprints": 2,
+                "medals": 1
+              },
+              {
+                "position": 2,
+                "research_points": 30,
+                "blueprints": 1,
+                "medals": 713
+              },
+              {
+                "position": 3,
+                "research_points": 10,
+                "blueprints": 1,
+                "medals": 357
+              },
+              {
+                "position": 4,
+                "research_points": 5,
+                "blueprints": 1,
+                "medals": 143
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 1,
+                "medals": 71
+              }
+            ]
+          },
+          {
+            "level": 7,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 70,
+                "blueprints": 2,
+                "medals": 2
+              },
+              {
+                "position": 2,
+                "research_points": 35,
+                "blueprints": 2,
+                "medals": 866
+              },
+              {
+                "position": 3,
+                "research_points": 10,
+                "blueprints": 1,
+                "medals": 433
+              },
+              {
+                "position": 4,
+                "research_points": 5,
+                "blueprints": 1,
+                "medals": 173
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 1,
+                "medals": 87
+              }
+            ]
+          },
+          {
+            "level": 8,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 85,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 2,
+                "research_points": 45,
+                "blueprints": 2,
+                "medals": 1
+              },
+              {
+                "position": 3,
+                "research_points": 15,
+                "blueprints": 1,
+                "medals": 516
+              },
+              {
+                "position": 4,
+                "research_points": 5,
+                "blueprints": 1,
+                "medals": 206
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 1,
+                "medals": 103
+              }
+            ]
+          },
+          {
+            "level": 9,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 95,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 2,
+                "research_points": 50,
+                "blueprints": 2,
+                "medals": 1
+              },
+              {
+                "position": 3,
+                "research_points": 15,
+                "blueprints": 2,
+                "medals": 592
+              },
+              {
+                "position": 4,
+                "research_points": 5,
+                "blueprints": 1,
+                "medals": 237
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 1,
+                "medals": 118
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 110,
+                "blueprints": 3,
+                "medals": 3
+              },
+              {
+                "position": 2,
+                "research_points": 55,
+                "blueprints": 2,
+                "medals": 1
+              },
+              {
+                "position": 3,
+                "research_points": 20,
+                "blueprints": 2,
+                "medals": 688
+              },
+              {
+                "position": 4,
+                "research_points": 5,
+                "blueprints": 2,
+                "medals": 275
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 1,
+                "medals": 138
+              }
+            ]
+          },
+          {
+            "level": 11,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 120,
+                "blueprints": 3,
+                "medals": 3
+              },
+              {
+                "position": 2,
+                "research_points": 60,
+                "blueprints": 2,
+                "medals": 2
+              },
+              {
+                "position": 3,
+                "research_points": 20,
+                "blueprints": 2,
+                "medals": 764
+              },
+              {
+                "position": 4,
+                "research_points": 5,
+                "blueprints": 2,
+                "medals": 306
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 1,
+                "medals": 153
+              }
+            ]
+          },
+          {
+            "level": 12,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 135,
+                "blueprints": 4,
+                "medals": 3
+              },
+              {
+                "position": 2,
+                "research_points": 70,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 3,
+                "research_points": 25,
+                "blueprints": 2,
+                "medals": 860
+              },
+              {
+                "position": 4,
+                "research_points": 5,
+                "blueprints": 2,
+                "medals": 344
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 1,
+                "medals": 172
+              }
+            ]
+          },
+          {
+            "level": 13,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 150,
+                "blueprints": 4,
+                "medals": 4
+              },
+              {
+                "position": 2,
+                "research_points": 75,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 3,
+                "research_points": 25,
+                "blueprints": 2,
+                "medals": 949
+              },
+              {
+                "position": 4,
+                "research_points": 5,
+                "blueprints": 2,
+                "medals": 380
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 1,
+                "medals": 190
+              }
+            ]
+          },
+          {
+            "level": 14,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 165,
+                "blueprints": 4,
+                "medals": 4
+              },
+              {
+                "position": 2,
+                "research_points": 85,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 3,
+                "research_points": 30,
+                "blueprints": 2,
+                "medals": 1
+              },
+              {
+                "position": 4,
+                "research_points": 10,
+                "blueprints": 2,
+                "medals": 418
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 2,
+                "medals": 209
+              }
+            ]
+          },
+          {
+            "level": 15,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 180,
+                "blueprints": 4,
+                "medals": 5
+              },
+              {
+                "position": 2,
+                "research_points": 90,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 3,
+                "research_points": 30,
+                "blueprints": 2,
+                "medals": 1
+              },
+              {
+                "position": 4,
+                "research_points": 10,
+                "blueprints": 2,
+                "medals": 453
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 2,
+                "medals": 227
+              }
+            ]
+          },
+          {
+            "level": 16,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 195,
+                "blueprints": 5,
+                "medals": 5
+              },
+              {
+                "position": 2,
+                "research_points": 100,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 3,
+                "research_points": 35,
+                "blueprints": 3,
+                "medals": 1
+              },
+              {
+                "position": 4,
+                "research_points": 10,
+                "blueprints": 2,
+                "medals": 492
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 2,
+                "medals": 246
+              }
+            ]
+          },
+          {
+            "level": 17,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 210,
+                "blueprints": 5,
+                "medals": 5
+              },
+              {
+                "position": 2,
+                "research_points": 105,
+                "blueprints": 3,
+                "medals": 3
+              },
+              {
+                "position": 3,
+                "research_points": 35,
+                "blueprints": 3,
+                "medals": 1
+              },
+              {
+                "position": 4,
+                "research_points": 10,
+                "blueprints": 2,
+                "medals": 530
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 2,
+                "medals": 265
+              }
+            ]
+          },
+          {
+            "level": 18,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 225,
+                "blueprints": 5,
+                "medals": 6
+              },
+              {
+                "position": 2,
+                "research_points": 115,
+                "blueprints": 4,
+                "medals": 3
+              },
+              {
+                "position": 3,
+                "research_points": 40,
+                "blueprints": 3,
+                "medals": 1
+              },
+              {
+                "position": 4,
+                "research_points": 10,
+                "blueprints": 2,
+                "medals": 568
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 2,
+                "medals": 284
+              }
+            ]
+          },
+          {
+            "level": 19,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 240,
+                "blueprints": 5,
+                "medals": 6
+              },
+              {
+                "position": 2,
+                "research_points": 120,
+                "blueprints": 4,
+                "medals": 3
+              },
+              {
+                "position": 3,
+                "research_points": 40,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 4,
+                "research_points": 10,
+                "blueprints": 2,
+                "medals": 606
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 2,
+                "medals": 303
+              }
+            ]
+          },
+          {
+            "level": 20,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 255,
+                "blueprints": 5,
+                "medals": 6
+              },
+              {
+                "position": 2,
+                "research_points": 130,
+                "blueprints": 4,
+                "medals": 3
+              },
+              {
+                "position": 3,
+                "research_points": 45,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 4,
+                "research_points": 10,
+                "blueprints": 2,
+                "medals": 647
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 2,
+                "medals": 323
+              }
+            ]
+          },
+          {
+            "level": 21,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 270,
+                "blueprints": 6,
+                "medals": 7
+              },
+              {
+                "position": 2,
+                "research_points": 135,
+                "blueprints": 4,
+                "medals": 3
+              },
+              {
+                "position": 3,
+                "research_points": 45,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 4,
+                "research_points": 10,
+                "blueprints": 3,
+                "medals": 688
+              },
+              {
+                "position": 5,
+                "research_points": 0,
+                "blueprints": 2,
+                "medals": 344
+              }
+            ]
+          },
+          {
+            "level": 22,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 290,
+                "blueprints": 6,
+                "medals": 7
+              },
+              {
+                "position": 2,
+                "research_points": 145,
+                "blueprints": 4,
+                "medals": 4
+              },
+              {
+                "position": 3,
+                "research_points": 50,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 4,
+                "research_points": 15,
+                "blueprints": 3,
+                "medals": 728
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 2,
+                "medals": 364
+              }
+            ]
+          },
+          {
+            "level": 23,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 305,
+                "blueprints": 6,
+                "medals": 8
+              },
+              {
+                "position": 2,
+                "research_points": 155,
+                "blueprints": 4,
+                "medals": 4
+              },
+              {
+                "position": 3,
+                "research_points": 50,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 4,
+                "research_points": 15,
+                "blueprints": 3,
+                "medals": 767
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 2,
+                "medals": 383
+              }
+            ]
+          },
+          {
+            "level": 24,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 320,
+                "blueprints": 6,
+                "medals": 8
+              },
+              {
+                "position": 2,
+                "research_points": 160,
+                "blueprints": 4,
+                "medals": 4
+              },
+              {
+                "position": 3,
+                "research_points": 55,
+                "blueprints": 3,
+                "medals": 2
+              },
+              {
+                "position": 4,
+                "research_points": 15,
+                "blueprints": 3,
+                "medals": 810
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 2,
+                "medals": 405
+              }
+            ]
+          },
+          {
+            "level": 25,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 335,
+                "blueprints": 6,
+                "medals": 9
+              },
+              {
+                "position": 2,
+                "research_points": 170,
+                "blueprints": 5,
+                "medals": 4
+              },
+              {
+                "position": 3,
+                "research_points": 55,
+                "blueprints": 4,
+                "medals": 2
+              },
+              {
+                "position": 4,
+                "research_points": 15,
+                "blueprints": 3,
+                "medals": 851
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 2,
+                "medals": 425
+              }
+            ]
+          },
+          {
+            "level": 26,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 355,
+                "blueprints": 7,
+                "medals": 9
+              },
+              {
+                "position": 2,
+                "research_points": 180,
+                "blueprints": 5,
+                "medals": 4
+              },
+              {
+                "position": 3,
+                "research_points": 60,
+                "blueprints": 4,
+                "medals": 2
+              },
+              {
+                "position": 4,
+                "research_points": 15,
+                "blueprints": 3,
+                "medals": 894
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 447
+              }
+            ]
+          },
+          {
+            "level": 27,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 370,
+                "blueprints": 7,
+                "medals": 9
+              },
+              {
+                "position": 2,
+                "research_points": 185,
+                "blueprints": 5,
+                "medals": 5
+              },
+              {
+                "position": 3,
+                "research_points": 60,
+                "blueprints": 4,
+                "medals": 2
+              },
+              {
+                "position": 4,
+                "research_points": 15,
+                "blueprints": 3,
+                "medals": 935
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 467
+              }
+            ]
+          },
+          {
+            "level": 28,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 385,
+                "blueprints": 7,
+                "medals": 10
+              },
+              {
+                "position": 2,
+                "research_points": 195,
+                "blueprints": 5,
+                "medals": 5
+              },
+              {
+                "position": 3,
+                "research_points": 65,
+                "blueprints": 4,
+                "medals": 2
+              },
+              {
+                "position": 4,
+                "research_points": 15,
+                "blueprints": 3,
+                "medals": 978
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 489
+              }
+            ]
+          },
+          {
+            "level": 29,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 405,
+                "blueprints": 7,
+                "medals": 10
+              },
+              {
+                "position": 2,
+                "research_points": 205,
+                "blueprints": 5,
+                "medals": 5
+              },
+              {
+                "position": 3,
+                "research_points": 70,
+                "blueprints": 4,
+                "medals": 3
+              },
+              {
+                "position": 4,
+                "research_points": 20,
+                "blueprints": 3,
+                "medals": 1
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 511
+              }
+            ]
+          },
+          {
+            "level": 30,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 420,
+                "blueprints": 7,
+                "medals": 11
+              },
+              {
+                "position": 2,
+                "research_points": 210,
+                "blueprints": 5,
+                "medals": 5
+              },
+              {
+                "position": 3,
+                "research_points": 70,
+                "blueprints": 4,
+                "medals": 3
+              },
+              {
+                "position": 4,
+                "research_points": 20,
+                "blueprints": 3,
+                "medals": 1
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 531
+              }
+            ]
+          },
+          {
+            "level": 31,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 435,
+                "blueprints": 7,
+                "medals": 11
+              },
+              {
+                "position": 2,
+                "research_points": 220,
+                "blueprints": 5,
+                "medals": 6
+              },
+              {
+                "position": 3,
+                "research_points": 75,
+                "blueprints": 4,
+                "medals": 3
+              },
+              {
+                "position": 4,
+                "research_points": 20,
+                "blueprints": 3,
+                "medals": 1
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 554
+              }
+            ]
+          },
+          {
+            "level": 32,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 455,
+                "blueprints": 8,
+                "medals": 11
+              },
+              {
+                "position": 2,
+                "research_points": 230,
+                "blueprints": 5,
+                "medals": 6
+              },
+              {
+                "position": 3,
+                "research_points": 75,
+                "blueprints": 4,
+                "medals": 3
+              },
+              {
+                "position": 4,
+                "research_points": 20,
+                "blueprints": 3,
+                "medals": 1
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 574
+              }
+            ]
+          },
+          {
+            "level": 33,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 470,
+                "blueprints": 8,
+                "medals": 12
+              },
+              {
+                "position": 2,
+                "research_points": 235,
+                "blueprints": 6,
+                "medals": 6
+              },
+              {
+                "position": 3,
+                "research_points": 80,
+                "blueprints": 4,
+                "medals": 3
+              },
+              {
+                "position": 4,
+                "research_points": 20,
+                "blueprints": 4,
+                "medals": 1
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 597
+              }
+            ]
+          },
+          {
+            "level": 34,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 490,
+                "blueprints": 8,
+                "medals": 12
+              },
+              {
+                "position": 2,
+                "research_points": 245,
+                "blueprints": 6,
+                "medals": 6
+              },
+              {
+                "position": 3,
+                "research_points": 80,
+                "blueprints": 4,
+                "medals": 3
+              },
+              {
+                "position": 4,
+                "research_points": 20,
+                "blueprints": 4,
+                "medals": 1
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 620
+              }
+            ]
+          },
+          {
+            "level": 35,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 505,
+                "blueprints": 8,
+                "medals": 13
+              },
+              {
+                "position": 2,
+                "research_points": 255,
+                "blueprints": 6,
+                "medals": 6
+              },
+              {
+                "position": 3,
+                "research_points": 85,
+                "blueprints": 5,
+                "medals": 3
+              },
+              {
+                "position": 4,
+                "research_points": 20,
+                "blueprints": 4,
+                "medals": 1
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 642
+              }
+            ]
+          },
+          {
+            "level": 36,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 525,
+                "blueprints": 8,
+                "medals": 13
+              },
+              {
+                "position": 2,
+                "research_points": 265,
+                "blueprints": 6,
+                "medals": 7
+              },
+              {
+                "position": 3,
+                "research_points": 90,
+                "blueprints": 5,
+                "medals": 3
+              },
+              {
+                "position": 4,
+                "research_points": 25,
+                "blueprints": 4,
+                "medals": 1
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 664
+              }
+            ]
+          },
+          {
+            "level": 37,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 540,
+                "blueprints": 8,
+                "medals": 14
+              },
+              {
+                "position": 2,
+                "research_points": 270,
+                "blueprints": 6,
+                "medals": 7
+              },
+              {
+                "position": 3,
+                "research_points": 90,
+                "blueprints": 5,
+                "medals": 3
+              },
+              {
+                "position": 4,
+                "research_points": 25,
+                "blueprints": 4,
+                "medals": 1
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 686
+              }
+            ]
+          },
+          {
+            "level": 38,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 560,
+                "blueprints": 9,
+                "medals": 14
+              },
+              {
+                "position": 2,
+                "research_points": 280,
+                "blueprints": 6,
+                "medals": 7
+              },
+              {
+                "position": 3,
+                "research_points": 95,
+                "blueprints": 5,
+                "medals": 4
+              },
+              {
+                "position": 4,
+                "research_points": 25,
+                "blueprints": 4,
+                "medals": 1
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 709
+              }
+            ]
+          },
+          {
+            "level": 39,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 575,
+                "blueprints": 9,
+                "medals": 15
+              },
+              {
+                "position": 2,
+                "research_points": 290,
+                "blueprints": 6,
+                "medals": 7
+              },
+              {
+                "position": 3,
+                "research_points": 95,
+                "blueprints": 5,
+                "medals": 4
+              },
+              {
+                "position": 4,
+                "research_points": 25,
+                "blueprints": 4,
+                "medals": 1
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 732
+              }
+            ]
+          },
+          {
+            "level": 40,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 595,
+                "blueprints": 9,
+                "medals": 15
+              },
+              {
+                "position": 2,
+                "research_points": 300,
+                "blueprints": 6,
+                "medals": 8
+              },
+              {
+                "position": 3,
+                "research_points": 100,
+                "blueprints": 5,
+                "medals": 4
+              },
+              {
+                "position": 4,
+                "research_points": 25,
+                "blueprints": 4,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 3,
+                "medals": 754
+              }
+            ]
+          },
+          {
+            "level": 41,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 615,
+                "blueprints": 9,
+                "medals": 16
+              },
+              {
+                "position": 2,
+                "research_points": 310,
+                "blueprints": 7,
+                "medals": 8
+              },
+              {
+                "position": 3,
+                "research_points": 105,
+                "blueprints": 5,
+                "medals": 4
+              },
+              {
+                "position": 4,
+                "research_points": 25,
+                "blueprints": 4,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 778
+              }
+            ]
+          },
+          {
+            "level": 42,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 630,
+                "blueprints": 9,
+                "medals": 16
+              },
+              {
+                "position": 2,
+                "research_points": 315,
+                "blueprints": 7,
+                "medals": 8
+              },
+              {
+                "position": 3,
+                "research_points": 105,
+                "blueprints": 5,
+                "medals": 4
+              },
+              {
+                "position": 4,
+                "research_points": 25,
+                "blueprints": 4,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 801
+              }
+            ]
+          },
+          {
+            "level": 43,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 650,
+                "blueprints": 10,
+                "medals": 16
+              },
+              {
+                "position": 2,
+                "research_points": 325,
+                "blueprints": 7,
+                "medals": 8
+              },
+              {
+                "position": 3,
+                "research_points": 110,
+                "blueprints": 5,
+                "medals": 4
+              },
+              {
+                "position": 4,
+                "research_points": 30,
+                "blueprints": 4,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 824
+              }
+            ]
+          },
+          {
+            "level": 44,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 670,
+                "blueprints": 10,
+                "medals": 17
+              },
+              {
+                "position": 2,
+                "research_points": 335,
+                "blueprints": 7,
+                "medals": 8
+              },
+              {
+                "position": 3,
+                "research_points": 110,
+                "blueprints": 5,
+                "medals": 4
+              },
+              {
+                "position": 4,
+                "research_points": 30,
+                "blueprints": 4,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 848
+              }
+            ]
+          },
+          {
+            "level": 45,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 685,
+                "blueprints": 10,
+                "medals": 17
+              },
+              {
+                "position": 2,
+                "research_points": 345,
+                "blueprints": 7,
+                "medals": 9
+              },
+              {
+                "position": 3,
+                "research_points": 115,
+                "blueprints": 5,
+                "medals": 4
+              },
+              {
+                "position": 4,
+                "research_points": 30,
+                "blueprints": 4,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 870
+              }
+            ]
+          },
+          {
+            "level": 46,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 705,
+                "blueprints": 10,
+                "medals": 18
+              },
+              {
+                "position": 2,
+                "research_points": 355,
+                "blueprints": 7,
+                "medals": 9
+              },
+              {
+                "position": 3,
+                "research_points": 120,
+                "blueprints": 6,
+                "medals": 4
+              },
+              {
+                "position": 4,
+                "research_points": 30,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 895
+              }
+            ]
+          },
+          {
+            "level": 47,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 725,
+                "blueprints": 10,
+                "medals": 18
+              },
+              {
+                "position": 2,
+                "research_points": 365,
+                "blueprints": 7,
+                "medals": 9
+              },
+              {
+                "position": 3,
+                "research_points": 120,
+                "blueprints": 6,
+                "medals": 5
+              },
+              {
+                "position": 4,
+                "research_points": 30,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 918
+              }
+            ]
+          },
+          {
+            "level": 48,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 740,
+                "blueprints": 10,
+                "medals": 19
+              },
+              {
+                "position": 2,
+                "research_points": 370,
+                "blueprints": 7,
+                "medals": 9
+              },
+              {
+                "position": 3,
+                "research_points": 125,
+                "blueprints": 6,
+                "medals": 5
+              },
+              {
+                "position": 4,
+                "research_points": 30,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 941
+              }
+            ]
+          },
+          {
+            "level": 49,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 760,
+                "blueprints": 11,
+                "medals": 19
+              },
+              {
+                "position": 2,
+                "research_points": 380,
+                "blueprints": 8,
+                "medals": 10
+              },
+              {
+                "position": 3,
+                "research_points": 125,
+                "blueprints": 6,
+                "medals": 5
+              },
+              {
+                "position": 4,
+                "research_points": 30,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 965
+              }
+            ]
+          },
+          {
+            "level": 50,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 780,
+                "blueprints": 11,
+                "medals": 20
+              },
+              {
+                "position": 2,
+                "research_points": 390,
+                "blueprints": 8,
+                "medals": 10
+              },
+              {
+                "position": 3,
+                "research_points": 130,
+                "blueprints": 6,
+                "medals": 5
+              },
+              {
+                "position": 4,
+                "research_points": 35,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 990
+              }
+            ]
+          },
+          {
+            "level": 51,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 800,
+                "blueprints": 11,
+                "medals": 20
+              },
+              {
+                "position": 2,
+                "research_points": 400,
+                "blueprints": 8,
+                "medals": 10
+              },
+              {
+                "position": 3,
+                "research_points": 135,
+                "blueprints": 6,
+                "medals": 5
+              },
+              {
+                "position": 4,
+                "research_points": 35,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 1014
+              }
+            ]
+          },
+          {
+            "level": 52,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 815,
+                "blueprints": 11,
+                "medals": 21
+              },
+              {
+                "position": 2,
+                "research_points": 410,
+                "blueprints": 8,
+                "medals": 10
+              },
+              {
+                "position": 3,
+                "research_points": 135,
+                "blueprints": 6,
+                "medals": 5
+              },
+              {
+                "position": 4,
+                "research_points": 35,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 1038
+              }
+            ]
+          },
+          {
+            "level": 53,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 835,
+                "blueprints": 11,
+                "medals": 21
+              },
+              {
+                "position": 2,
+                "research_points": 420,
+                "blueprints": 8,
+                "medals": 11
+              },
+              {
+                "position": 3,
+                "research_points": 140,
+                "blueprints": 6,
+                "medals": 5
+              },
+              {
+                "position": 4,
+                "research_points": 35,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 1062
+              }
+            ]
+          },
+          {
+            "level": 54,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 855,
+                "blueprints": 11,
+                "medals": 22
+              },
+              {
+                "position": 2,
+                "research_points": 430,
+                "blueprints": 8,
+                "medals": 11
+              },
+              {
+                "position": 3,
+                "research_points": 145,
+                "blueprints": 6,
+                "medals": 5
+              },
+              {
+                "position": 4,
+                "research_points": 35,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 1086
+              }
+            ]
+          },
+          {
+            "level": 55,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 875,
+                "blueprints": 11,
+                "medals": 22
+              },
+              {
+                "position": 2,
+                "research_points": 440,
+                "blueprints": 8,
+                "medals": 11
+              },
+              {
+                "position": 3,
+                "research_points": 145,
+                "blueprints": 6,
+                "medals": 6
+              },
+              {
+                "position": 4,
+                "research_points": 35,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 5,
+                "blueprints": 4,
+                "medals": 1111
+              }
+            ]
+          },
+          {
+            "level": 56,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 895,
+                "blueprints": 12,
+                "medals": 23
+              },
+              {
+                "position": 2,
+                "research_points": 450,
+                "blueprints": 8,
+                "medals": 11
+              },
+              {
+                "position": 3,
+                "research_points": 150,
+                "blueprints": 6,
+                "medals": 6
+              },
+              {
+                "position": 4,
+                "research_points": 40,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 4,
+                "medals": 1135
+              }
+            ]
+          },
+          {
+            "level": 57,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 915,
+                "blueprints": 12,
+                "medals": 23
+              },
+              {
+                "position": 2,
+                "research_points": 460,
+                "blueprints": 8,
+                "medals": 12
+              },
+              {
+                "position": 3,
+                "research_points": 155,
+                "blueprints": 7,
+                "medals": 6
+              },
+              {
+                "position": 4,
+                "research_points": 40,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1160
+              }
+            ]
+          },
+          {
+            "level": 58,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 930,
+                "blueprints": 12,
+                "medals": 24
+              },
+              {
+                "position": 2,
+                "research_points": 465,
+                "blueprints": 9,
+                "medals": 12
+              },
+              {
+                "position": 3,
+                "research_points": 155,
+                "blueprints": 7,
+                "medals": 6
+              },
+              {
+                "position": 4,
+                "research_points": 40,
+                "blueprints": 5,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1184
+              }
+            ]
+          },
+          {
+            "level": 59,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 950,
+                "blueprints": 12,
+                "medals": 24
+              },
+              {
+                "position": 2,
+                "research_points": 475,
+                "blueprints": 9,
+                "medals": 12
+              },
+              {
+                "position": 3,
+                "research_points": 160,
+                "blueprints": 7,
+                "medals": 6
+              },
+              {
+                "position": 4,
+                "research_points": 40,
+                "blueprints": 6,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1210
+              }
+            ]
+          },
+          {
+            "level": 60,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 970,
+                "blueprints": 12,
+                "medals": 25
+              },
+              {
+                "position": 2,
+                "research_points": 485,
+                "blueprints": 9,
+                "medals": 12
+              },
+              {
+                "position": 3,
+                "research_points": 160,
+                "blueprints": 7,
+                "medals": 6
+              },
+              {
+                "position": 4,
+                "research_points": 40,
+                "blueprints": 6,
+                "medals": 2
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1234
+              }
+            ]
+          },
+          {
+            "level": 61,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 990,
+                "blueprints": 12,
+                "medals": 25
+              },
+              {
+                "position": 2,
+                "research_points": 495,
+                "blueprints": 9,
+                "medals": 13
+              },
+              {
+                "position": 3,
+                "research_points": 165,
+                "blueprints": 7,
+                "medals": 6
+              },
+              {
+                "position": 4,
+                "research_points": 40,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1258
+              }
+            ]
+          },
+          {
+            "level": 62,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 13,
+                "medals": 26
+              },
+              {
+                "position": 2,
+                "research_points": 505,
+                "blueprints": 9,
+                "medals": 13
+              },
+              {
+                "position": 3,
+                "research_points": 170,
+                "blueprints": 7,
+                "medals": 6
+              },
+              {
+                "position": 4,
+                "research_points": 45,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1284
+              }
+            ]
+          },
+          {
+            "level": 63,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 13,
+                "medals": 26
+              },
+              {
+                "position": 2,
+                "research_points": 515,
+                "blueprints": 9,
+                "medals": 13
+              },
+              {
+                "position": 3,
+                "research_points": 170,
+                "blueprints": 7,
+                "medals": 7
+              },
+              {
+                "position": 4,
+                "research_points": 45,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1309
+              }
+            ]
+          },
+          {
+            "level": 64,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 13,
+                "medals": 27
+              },
+              {
+                "position": 2,
+                "research_points": 525,
+                "blueprints": 9,
+                "medals": 13
+              },
+              {
+                "position": 3,
+                "research_points": 175,
+                "blueprints": 7,
+                "medals": 7
+              },
+              {
+                "position": 4,
+                "research_points": 45,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1335
+              }
+            ]
+          },
+          {
+            "level": 65,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 13,
+                "medals": 27
+              },
+              {
+                "position": 2,
+                "research_points": 535,
+                "blueprints": 9,
+                "medals": 14
+              },
+              {
+                "position": 3,
+                "research_points": 180,
+                "blueprints": 7,
+                "medals": 7
+              },
+              {
+                "position": 4,
+                "research_points": 45,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1360
+              }
+            ]
+          },
+          {
+            "level": 66,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 13,
+                "medals": 28
+              },
+              {
+                "position": 2,
+                "research_points": 545,
+                "blueprints": 9,
+                "medals": 14
+              },
+              {
+                "position": 3,
+                "research_points": 180,
+                "blueprints": 7,
+                "medals": 7
+              },
+              {
+                "position": 4,
+                "research_points": 45,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1384
+              }
+            ]
+          },
+          {
+            "level": 67,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 13,
+                "medals": 28
+              },
+              {
+                "position": 2,
+                "research_points": 555,
+                "blueprints": 10,
+                "medals": 14
+              },
+              {
+                "position": 3,
+                "research_points": 185,
+                "blueprints": 7,
+                "medals": 7
+              },
+              {
+                "position": 4,
+                "research_points": 45,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1410
+              }
+            ]
+          },
+          {
+            "level": 68,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 14,
+                "medals": 29
+              },
+              {
+                "position": 2,
+                "research_points": 565,
+                "blueprints": 10,
+                "medals": 14
+              },
+              {
+                "position": 3,
+                "research_points": 190,
+                "blueprints": 8,
+                "medals": 7
+              },
+              {
+                "position": 4,
+                "research_points": 50,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1437
+              }
+            ]
+          },
+          {
+            "level": 69,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 14,
+                "medals": 29
+              },
+              {
+                "position": 2,
+                "research_points": 575,
+                "blueprints": 10,
+                "medals": 15
+              },
+              {
+                "position": 3,
+                "research_points": 190,
+                "blueprints": 8,
+                "medals": 7
+              },
+              {
+                "position": 4,
+                "research_points": 50,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1461
+              }
+            ]
+          },
+          {
+            "level": 70,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 14,
+                "medals": 30
+              },
+              {
+                "position": 2,
+                "research_points": 585,
+                "blueprints": 10,
+                "medals": 15
+              },
+              {
+                "position": 3,
+                "research_points": 195,
+                "blueprints": 8,
+                "medals": 7
+              },
+              {
+                "position": 4,
+                "research_points": 50,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1487
+              }
+            ]
+          },
+          {
+            "level": 71,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 14,
+                "medals": 30
+              },
+              {
+                "position": 2,
+                "research_points": 595,
+                "blueprints": 10,
+                "medals": 15
+              },
+              {
+                "position": 3,
+                "research_points": 200,
+                "blueprints": 8,
+                "medals": 8
+              },
+              {
+                "position": 4,
+                "research_points": 50,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1513
+              }
+            ]
+          },
+          {
+            "level": 72,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 14,
+                "medals": 31
+              },
+              {
+                "position": 2,
+                "research_points": 605,
+                "blueprints": 10,
+                "medals": 15
+              },
+              {
+                "position": 3,
+                "research_points": 200,
+                "blueprints": 8,
+                "medals": 8
+              },
+              {
+                "position": 4,
+                "research_points": 50,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1538
+              }
+            ]
+          },
+          {
+            "level": 73,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 14,
+                "medals": 31
+              },
+              {
+                "position": 2,
+                "research_points": 615,
+                "blueprints": 10,
+                "medals": 16
+              },
+              {
+                "position": 3,
+                "research_points": 205,
+                "blueprints": 8,
+                "medals": 8
+              },
+              {
+                "position": 4,
+                "research_points": 50,
+                "blueprints": 6,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 5,
+                "medals": 1564
+              }
+            ]
+          },
+          {
+            "level": 74,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 14,
+                "medals": 32
+              },
+              {
+                "position": 2,
+                "research_points": 625,
+                "blueprints": 10,
+                "medals": 16
+              },
+              {
+                "position": 3,
+                "research_points": 210,
+                "blueprints": 8,
+                "medals": 8
+              },
+              {
+                "position": 4,
+                "research_points": 55,
+                "blueprints": 7,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1591
+              }
+            ]
+          },
+          {
+            "level": 75,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 15,
+                "medals": 32
+              },
+              {
+                "position": 2,
+                "research_points": 635,
+                "blueprints": 10,
+                "medals": 16
+              },
+              {
+                "position": 3,
+                "research_points": 210,
+                "blueprints": 8,
+                "medals": 8
+              },
+              {
+                "position": 4,
+                "research_points": 55,
+                "blueprints": 7,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1616
+              }
+            ]
+          },
+          {
+            "level": 76,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 15,
+                "medals": 33
+              },
+              {
+                "position": 2,
+                "research_points": 645,
+                "blueprints": 11,
+                "medals": 16
+              },
+              {
+                "position": 3,
+                "research_points": 215,
+                "blueprints": 8,
+                "medals": 8
+              },
+              {
+                "position": 4,
+                "research_points": 55,
+                "blueprints": 7,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1642
+              }
+            ]
+          },
+          {
+            "level": 77,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 15,
+                "medals": 33
+              },
+              {
+                "position": 2,
+                "research_points": 655,
+                "blueprints": 11,
+                "medals": 17
+              },
+              {
+                "position": 3,
+                "research_points": 220,
+                "blueprints": 8,
+                "medals": 8
+              },
+              {
+                "position": 4,
+                "research_points": 55,
+                "blueprints": 7,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1668
+              }
+            ]
+          },
+          {
+            "level": 78,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 15,
+                "medals": 34
+              },
+              {
+                "position": 2,
+                "research_points": 670,
+                "blueprints": 11,
+                "medals": 17
+              },
+              {
+                "position": 3,
+                "research_points": 225,
+                "blueprints": 8,
+                "medals": 8
+              },
+              {
+                "position": 4,
+                "research_points": 55,
+                "blueprints": 7,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1695
+              }
+            ]
+          },
+          {
+            "level": 79,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 15,
+                "medals": 34
+              },
+              {
+                "position": 2,
+                "research_points": 680,
+                "blueprints": 11,
+                "medals": 17
+              },
+              {
+                "position": 3,
+                "research_points": 225,
+                "blueprints": 8,
+                "medals": 9
+              },
+              {
+                "position": 4,
+                "research_points": 55,
+                "blueprints": 7,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1721
+              }
+            ]
+          },
+          {
+            "level": 80,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 15,
+                "medals": 35
+              },
+              {
+                "position": 2,
+                "research_points": 690,
+                "blueprints": 11,
+                "medals": 17
+              },
+              {
+                "position": 3,
+                "research_points": 230,
+                "blueprints": 9,
+                "medals": 9
+              },
+              {
+                "position": 4,
+                "research_points": 60,
+                "blueprints": 7,
+                "medals": 3
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1747
+              }
+            ]
+          },
+          {
+            "level": 81,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 15,
+                "medals": 35
+              },
+              {
+                "position": 2,
+                "research_points": 700,
+                "blueprints": 11,
+                "medals": 18
+              },
+              {
+                "position": 3,
+                "research_points": 235,
+                "blueprints": 9,
+                "medals": 9
+              },
+              {
+                "position": 4,
+                "research_points": 60,
+                "blueprints": 7,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1774
+              }
+            ]
+          },
+          {
+            "level": 82,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 16,
+                "medals": 36
+              },
+              {
+                "position": 2,
+                "research_points": 710,
+                "blueprints": 11,
+                "medals": 18
+              },
+              {
+                "position": 3,
+                "research_points": 235,
+                "blueprints": 9,
+                "medals": 9
+              },
+              {
+                "position": 4,
+                "research_points": 60,
+                "blueprints": 7,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1801
+              }
+            ]
+          },
+          {
+            "level": 83,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 16,
+                "medals": 37
+              },
+              {
+                "position": 2,
+                "research_points": 720,
+                "blueprints": 11,
+                "medals": 18
+              },
+              {
+                "position": 3,
+                "research_points": 240,
+                "blueprints": 9,
+                "medals": 9
+              },
+              {
+                "position": 4,
+                "research_points": 60,
+                "blueprints": 7,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1826
+              }
+            ]
+          },
+          {
+            "level": 84,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 16,
+                "medals": 37
+              },
+              {
+                "position": 2,
+                "research_points": 730,
+                "blueprints": 11,
+                "medals": 19
+              },
+              {
+                "position": 3,
+                "research_points": 245,
+                "blueprints": 9,
+                "medals": 9
+              },
+              {
+                "position": 4,
+                "research_points": 60,
+                "blueprints": 7,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1853
+              }
+            ]
+          },
+          {
+            "level": 85,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 1,
+                "blueprints": 16,
+                "medals": 38
+              },
+              {
+                "position": 2,
+                "research_points": 740,
+                "blueprints": 11,
+                "medals": 19
+              },
+              {
+                "position": 3,
+                "research_points": 245,
+                "blueprints": 9,
+                "medals": 9
+              },
+              {
+                "position": 4,
+                "research_points": 60,
+                "blueprints": 7,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 10,
+                "blueprints": 6,
+                "medals": 1880
+              }
+            ]
+          },
+          {
+            "level": 86,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 16,
+                "medals": 38
+              },
+              {
+                "position": 2,
+                "research_points": 750,
+                "blueprints": 12,
+                "medals": 19
+              },
+              {
+                "position": 3,
+                "research_points": 250,
+                "blueprints": 9,
+                "medals": 10
+              },
+              {
+                "position": 4,
+                "research_points": 65,
+                "blueprints": 7,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 6,
+                "medals": 1906
+              }
+            ]
+          },
+          {
+            "level": 87,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 16,
+                "medals": 39
+              },
+              {
+                "position": 2,
+                "research_points": 760,
+                "blueprints": 12,
+                "medals": 19
+              },
+              {
+                "position": 3,
+                "research_points": 255,
+                "blueprints": 9,
+                "medals": 10
+              },
+              {
+                "position": 4,
+                "research_points": 65,
+                "blueprints": 7,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 6,
+                "medals": 1934
+              }
+            ]
+          },
+          {
+            "level": 88,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 17,
+                "medals": 39
+              },
+              {
+                "position": 2,
+                "research_points": 770,
+                "blueprints": 12,
+                "medals": 20
+              },
+              {
+                "position": 3,
+                "research_points": 255,
+                "blueprints": 9,
+                "medals": 10
+              },
+              {
+                "position": 4,
+                "research_points": 65,
+                "blueprints": 8,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 6,
+                "medals": 1960
+              }
+            ]
+          },
+          {
+            "level": 89,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 17,
+                "medals": 40
+              },
+              {
+                "position": 2,
+                "research_points": 780,
+                "blueprints": 12,
+                "medals": 20
+              },
+              {
+                "position": 3,
+                "research_points": 260,
+                "blueprints": 9,
+                "medals": 10
+              },
+              {
+                "position": 4,
+                "research_points": 65,
+                "blueprints": 8,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 6,
+                "medals": 1987
+              }
+            ]
+          },
+          {
+            "level": 90,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 17,
+                "medals": 40
+              },
+              {
+                "position": 2,
+                "research_points": 795,
+                "blueprints": 12,
+                "medals": 20
+              },
+              {
+                "position": 3,
+                "research_points": 265,
+                "blueprints": 9,
+                "medals": 10
+              },
+              {
+                "position": 4,
+                "research_points": 65,
+                "blueprints": 8,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 6,
+                "medals": 2015
+              }
+            ]
+          },
+          {
+            "level": 91,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 17,
+                "medals": 41
+              },
+              {
+                "position": 2,
+                "research_points": 805,
+                "blueprints": 12,
+                "medals": 20
+              },
+              {
+                "position": 3,
+                "research_points": 270,
+                "blueprints": 9,
+                "medals": 10
+              },
+              {
+                "position": 4,
+                "research_points": 70,
+                "blueprints": 8,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 7,
+                "medals": 2041
+              }
+            ]
+          },
+          {
+            "level": 92,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 17,
+                "medals": 41
+              },
+              {
+                "position": 2,
+                "research_points": 815,
+                "blueprints": 12,
+                "medals": 21
+              },
+              {
+                "position": 3,
+                "research_points": 270,
+                "blueprints": 10,
+                "medals": 10
+              },
+              {
+                "position": 4,
+                "research_points": 70,
+                "blueprints": 8,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 7,
+                "medals": 2068
+              }
+            ]
+          },
+          {
+            "level": 93,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 17,
+                "medals": 42
+              },
+              {
+                "position": 2,
+                "research_points": 825,
+                "blueprints": 12,
+                "medals": 21
+              },
+              {
+                "position": 3,
+                "research_points": 275,
+                "blueprints": 10,
+                "medals": 10
+              },
+              {
+                "position": 4,
+                "research_points": 70,
+                "blueprints": 8,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 7,
+                "medals": 2095
+              }
+            ]
+          },
+          {
+            "level": 94,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 17,
+                "medals": 42
+              },
+              {
+                "position": 2,
+                "research_points": 835,
+                "blueprints": 12,
+                "medals": 21
+              },
+              {
+                "position": 3,
+                "research_points": 280,
+                "blueprints": 10,
+                "medals": 11
+              },
+              {
+                "position": 4,
+                "research_points": 70,
+                "blueprints": 8,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 7,
+                "medals": 2123
+              }
+            ]
+          },
+          {
+            "level": 95,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 18,
+                "medals": 43
+              },
+              {
+                "position": 2,
+                "research_points": 845,
+                "blueprints": 13,
+                "medals": 21
+              },
+              {
+                "position": 3,
+                "research_points": 280,
+                "blueprints": 10,
+                "medals": 11
+              },
+              {
+                "position": 4,
+                "research_points": 70,
+                "blueprints": 8,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 7,
+                "medals": 2150
+              }
+            ]
+          },
+          {
+            "level": 96,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 18,
+                "medals": 44
+              },
+              {
+                "position": 2,
+                "research_points": 855,
+                "blueprints": 13,
+                "medals": 22
+              },
+              {
+                "position": 3,
+                "research_points": 285,
+                "blueprints": 10,
+                "medals": 11
+              },
+              {
+                "position": 4,
+                "research_points": 70,
+                "blueprints": 8,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 7,
+                "medals": 2178
+              }
+            ]
+          },
+          {
+            "level": 97,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 18,
+                "medals": 44
+              },
+              {
+                "position": 2,
+                "research_points": 870,
+                "blueprints": 13,
+                "medals": 22
+              },
+              {
+                "position": 3,
+                "research_points": 290,
+                "blueprints": 10,
+                "medals": 11
+              },
+              {
+                "position": 4,
+                "research_points": 75,
+                "blueprints": 8,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 7,
+                "medals": 2204
+              }
+            ]
+          },
+          {
+            "level": 98,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 18,
+                "medals": 45
+              },
+              {
+                "position": 2,
+                "research_points": 880,
+                "blueprints": 13,
+                "medals": 22
+              },
+              {
+                "position": 3,
+                "research_points": 295,
+                "blueprints": 10,
+                "medals": 11
+              },
+              {
+                "position": 4,
+                "research_points": 75,
+                "blueprints": 8,
+                "medals": 4
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 7,
+                "medals": 2232
+              }
+            ]
+          },
+          {
+            "level": 99,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 18,
+                "medals": 45
+              },
+              {
+                "position": 2,
+                "research_points": 890,
+                "blueprints": 13,
+                "medals": 23
+              },
+              {
+                "position": 3,
+                "research_points": 295,
+                "blueprints": 10,
+                "medals": 11
+              },
+              {
+                "position": 4,
+                "research_points": 75,
+                "blueprints": 8,
+                "medals": 5
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 7,
+                "medals": 2259
+              }
+            ]
+          },
+          {
+            "level": 100,
+            "positions": [
+              {
+                "position": 1,
+                "research_points": 2,
+                "blueprints": 18,
+                "medals": 46
+              },
+              {
+                "position": 2,
+                "research_points": 900,
+                "blueprints": 13,
+                "medals": 23
+              },
+              {
+                "position": 3,
+                "research_points": 300,
+                "blueprints": 10,
+                "medals": 11
+              },
+              {
+                "position": 4,
+                "research_points": 75,
+                "blueprints": 8,
+                "medals": 5
+              },
+              {
+                "position": 5,
+                "research_points": 15,
+                "blueprints": 7,
+                "medals": 2287
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
