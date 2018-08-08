@@ -121,29 +121,35 @@ function displayLevel() {
     document.getElementById('p4_rp2').innerText = data.p4.rp2;
     document.getElementById('p5_rp2').innerText = data.p5.rp2;
 
+    data.p1.safe = data.rp - 2 * data.p1.rp2 + 1;
+    if (data.p1.safe < 0) data.p1.safe = 0;
+    data.p2.safe = data.rp - data.p1.rp2 - 2 * data.p2.rp2 + 1 - data.p1.safe;
+    if (data.p2.safe < 0) data.p2.safe = 0;
+    data.p3.safe = data.rp - data.p1.rp2 - data.p2.rp2 - 2 * data.p3.rp2 + 1 - data.p1.safe - data.p2.safe;
+    if (data.p3.safe < 0) data.p3.safe = 0;
+    data.p4.safe = data.rp - data.p1.rp2 - data.p2.rp2 - data.p3.rp2 - 2 * data.p4.rp2 + 1 - data.p1.safe - data.p2.safe - data.p3.safe;
+    if (data.p4.safe < 0) data.p4.safe = 0;
+    data.p5.safe = data.rp - data.p1.rp2 - data.p2.rp2 - data.p3.rp2 - data.p4.rp2 - 2 * data.p5.rp2 + 1 - data.p1.safe - data.p2.safe - data.p3.safe - data.p4.safe;
+    if (data.p5.safe < 0) data.p5.safe = 0;
+    data.safe_rest = data.rp - data.p1.rp2 - data.p1.safe - data.p2.rp2 - data.p2.safe - data.p3.rp2 - data.p3.safe - data.p4.rp2 - data.p4.safe - data.p5.rp2 - data.p5.safe;
+    if (data.safe_rest < 0) data.safe_rest = 0;
+
     document.getElementById('rp2_rest').innerText = data.rp2_rest;
     document.getElementById('rp2_advantage').innerText = data.rp_rest - data.rp2_rest;
 
-    document.getElementById('p12_rp2_safe').innerText =
-        data.rp -
-        data.p1.rp2 -
-        2 * data.p2.rp2 + 1;
-    document.getElementById('p123_rp2_safe').innerText =
-        data.rp -
-        data.p1.rp2 -
-        data.p2.rp2 -
-        2 * data.p3.rp2 + 1;
-    document.getElementById('p1234_rp2_safe').innerText =
-        data.rp -
-        data.p1.rp2 -
-        data.p2.rp2 -
-        data.p3.rp2 -
-        2 * data.p4.rp2 + 1;
-    document.getElementById('p12345_rp2_safe').innerText =
-        data.rp -
-        data.p1.rp2 -
-        data.p2.rp2 -
-        data.p3.rp2 -
-        data.p4.rp2 -
-        2 * data.p4.rp2 + 1;
+    document.getElementById('p1_rp2_safe').innerText = '+' + data.p1.safe;
+    document.getElementById('p12_rp2_safe').innerText = '+' + data.p2.safe;
+    document.getElementById('p123_rp2_safe').innerText = '+' + data.p3.safe;
+    document.getElementById('p1234_rp2_safe').innerText = '+' + data.p4.safe;
+    document.getElementById('p12345_rp2_safe').innerText = '+' + data.p5.safe;
+    document.getElementById('p12345_rp2_rest').innerText = '+' + data.safe_rest;
+}
+
+function showInfo() {
+    var x = document.getElementById("info");
+    if (x.style.display === "none") {
+        x.style.display = "table-row";
+    } else {
+        x.style.display = "none";
+    }
 }

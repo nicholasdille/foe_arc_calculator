@@ -55,3 +55,7 @@ input, select {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+.info {
+    display: none;
+}
