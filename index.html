@@ -6,11 +6,16 @@
 <script src="jquery-3.3.1.slim.min.js" type="text/javascript"></script>
 </head>
 <body>
-<h1>Arche</h1>
+<div class="navbar">
+    Arche auf Level <select size="1" id="level" onchange="displayLevel();"><option></option></select>
+    <input type="button" class="button" value="+" onclick="nextLevel()">
+    <input type="button" class="button" value="-" onclick="lastLevel()">
+</div>
+<div class="main">
 
 <p>Support-Multiplikator: <input type="text" value="1.8" size="5" id="bonus" onchange="displayLevel();"></input></p>
 
-<p>Level: <select size="1" id="level" onchange="displayLevel();"><option></option></select> (erfordert <span id="research_points"></span> FP)</p>
+<p>... erfordert <span id="research_points"></span> FP)</p>
 
 <table>
     <thead>
@@ -56,6 +61,8 @@
         <td colspan="5" class="center"><span id="p12345_rp2_safe">?</span></td>
     </tr>
 </table>
+
+</div>
 
 </body>
 </html>

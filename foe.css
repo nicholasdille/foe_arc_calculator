@@ -29,3 +29,29 @@ td.center {
 input, select {
     font-size: large;
 }
+
+.navbar {
+    color: white;
+    overflow: hidden;
+    background-color: #4CAF50;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding: 0.5em;
+}
+
+.main {
+    margin-top: 3em;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

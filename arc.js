@@ -32,6 +32,32 @@ loadJSON(function(response) {
     document.getElementById('level').focus();
 });
 
+function nextLevel() {
+    var select = document.getElementById('level');
+    var level = select.options[select.selectedIndex].value;
+
+    if (level == null || level == "") {
+        level = 0;
+    }
+
+    select.selectedIndex = ++level;
+
+    displayLevel();
+}
+
+function lastLevel() {
+    var select = document.getElementById('level');
+    var level = select.options[select.selectedIndex].value;
+
+    if (level == null || level == "" || level < 2) {
+        return;
+    }
+
+    select.selectedIndex = --level;
+
+    displayLevel();
+}
+
 function displayLevel() {
     var select = document.getElementById('level');
     var level = select.options[select.selectedIndex].value;
