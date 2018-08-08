@@ -1,5 +1,6 @@
 var foe;
 var arc;
+var initialited = false;
 
 function loadJSON(callback) {
     var xobj = new XMLHttpRequest();
@@ -29,7 +30,10 @@ loadJSON(function(response) {
         select.add(option);
     });
 
+    initialized = true;
+
     document.getElementById('level').focus();
+    displayLevel();
 });
 
 function nextLevel() {
@@ -49,7 +53,7 @@ function lastLevel() {
     var select = document.getElementById('level');
     var level = select.options[select.selectedIndex].value;
 
-    if (level == null || level == "" || level < 2) {
+    if (level == null || level == "" || level == 0) {
         return;
     }
 
@@ -58,64 +62,88 @@ function lastLevel() {
     displayLevel();
 }
 
-function displayLevel() {
-    var select = document.getElementById('level');
-    var level = select.options[select.selectedIndex].value;
-    var bonus = document.getElementById('bonus').value;
+function getLevelData(level) {
+    var result = {};
 
+    result.level = level;
     $.each(arc.levels, function (i, v) {
         if (v.level == level) {
-            document.getElementById('research_points').innerText = v.research_points;
+            result['rp'] = v.research_points
+            result['guild_goods'] = v.guild_goods
+            result['bonus'] = v.bonus
         }
     });
 
+    result['p1'] = {};
+    result['p2'] = {};
+    result['p3'] = {};
+    result['p4'] = {};
+    result['p5'] = {};
     $.each(arc.rewards, function (i, v) {
         if (v.level == level) {
             $.each(v.positions, function(i, v) {
-                document.getElementById('p' + v.position + '_rp').innerText = v.research_points;
-                document.getElementById('p' + v.position + '_rp2').innerText = v.research_points * parseFloat(bonus);
+                result['p' + v.position]['rp'] = v.research_points;
+                result['p' + v.position]['medals'] = v.medals;
+                result['p' + v.position]['bp'] = v.blueprints;
             });
         }
     });
 
-    document.getElementById('rp_rest').innerText =
-        parseInt(document.getElementById('research_points').innerText) -
-        parseInt(document.getElementById('p1_rp').innerText) -
-        parseInt(document.getElementById('p2_rp').innerText) -
-        parseInt(document.getElementById('p3_rp').innerText) -
-        parseInt(document.getElementById('p4_rp').innerText) -
-        parseInt(document.getElementById('p5_rp').innerText);
-    document.getElementById('rp2_rest').innerText =
-        parseInt(document.getElementById('research_points').innerText) -
-        parseInt(document.getElementById('p1_rp2').innerText) -
-        parseInt(document.getElementById('p2_rp2').innerText) -
-        parseInt(document.getElementById('p3_rp2').innerText) -
-        parseInt(document.getElementById('p4_rp2').innerText) -
-        parseInt(document.getElementById('p5_rp2').innerText);
-    document.getElementById('rp2_advantage').innerText =
-        parseInt(document.getElementById('rp_rest').innerText) -
-        parseInt(document.getElementById('rp2_rest').innerText);
+    return result;
+}
+
+function displayLevel() {
+    if (! initialized) {
+        return;
+    }
+
+    var select = document.getElementById('level');
+    var level = parseInt(select.options[select.selectedIndex].value);
+    var bonus = parseFloat(document.getElementById('bonus').value);
+
+    var data = getLevelData(level + 1);
+
+    data.p1.rp2 = data.p1.rp * bonus;
+    data.p2.rp2 = data.p2.rp * bonus;
+    data.p3.rp2 = data.p3.rp * bonus;
+    data.p4.rp2 = data.p4.rp * bonus;
+    data.p5.rp2 = data.p5.rp * bonus;
+
+    data.rp_rest = data.rp - data.p1.rp - data.p2.rp - data.p3.rp - data.p4.rp - data.p5.rp;
+    data.rp2_rest = data.rp - data.p1.rp2 - data.p2.rp2 - data.p3.rp2 - data.p4.rp2 - data.p5.rp2;
+
+    document.getElementById('level1').innerText = data.level;
+    document.getElementById('research_points').innerText = data.rp;
+
+    document.getElementById('p1_rp2').innerText = data.p1.rp2;
+    document.getElementById('p2_rp2').innerText = data.p2.rp2;
+    document.getElementById('p3_rp2').innerText = data.p3.rp2;
+    document.getElementById('p4_rp2').innerText = data.p4.rp2;
+    document.getElementById('p5_rp2').innerText = data.p5.rp2;
+
+    document.getElementById('rp2_rest').innerText = data.rp2_rest;
+    document.getElementById('rp2_advantage').innerText = data.rp_rest - data.rp2_rest;
 
     document.getElementById('p12_rp2_safe').innerText =
-        parseInt(document.getElementById('research_points').innerText) -
-        parseInt(document.getElementById('p1_rp2').innerText) -
-        2 * parseInt(document.getElementById('p2_rp2').innerText) + 1;
+        data.rp -
+        data.p1.rp2 -
+        2 * data.p2.rp2 + 1;
     document.getElementById('p123_rp2_safe').innerText =
-        parseInt(document.getElementById('research_points').innerText) -
-        parseInt(document.getElementById('p1_rp2').innerText) -
-        parseInt(document.getElementById('p2_rp2').innerText) -
-        2 * parseInt(document.getElementById('p3_rp2').innerText) + 1;
+        data.rp -
+        data.p1.rp2 -
+        data.p2.rp2 -
+        2 * data.p3.rp2 + 1;
     document.getElementById('p1234_rp2_safe').innerText =
-        parseInt(document.getElementById('research_points').innerText) -
-        parseInt(document.getElementById('p1_rp2').innerText) -
-        parseInt(document.getElementById('p2_rp2').innerText) -
-        parseInt(document.getElementById('p3_rp2').innerText) -
-        2 * parseInt(document.getElementById('p4_rp2').innerText) + 1;
+        data.rp -
+        data.p1.rp2 -
+        data.p2.rp2 -
+        data.p3.rp2 -
+        2 * data.p4.rp2 + 1;
     document.getElementById('p12345_rp2_safe').innerText =
-        parseInt(document.getElementById('research_points').innerText) -
-        parseInt(document.getElementById('p1_rp2').innerText) -
-        parseInt(document.getElementById('p2_rp2').innerText) -
-        parseInt(document.getElementById('p3_rp2').innerText) -
-        parseInt(document.getElementById('p4_rp2').innerText) -
-        2 * parseInt(document.getElementById('p5_rp2').innerText) + 1;
+        data.rp -
+        data.p1.rp2 -
+        data.p2.rp2 -
+        data.p3.rp2 -
+        data.p4.rp2 -
+        2 * data.p4.rp2 + 1;
 }
