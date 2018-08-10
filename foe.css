@@ -4,7 +4,7 @@ body {
 
 table {
     border-collapse: collapse;
-    font-size: large;
+    font-size: x-large;
 }
 
 table, th, td {
@@ -56,6 +56,33 @@ input, select {
     cursor: pointer;
 }
 
-.info {
+.info* {
     display: none;
+}
+
+.rp {
+    background-image: url("https://vignette.wikia.nocookie.net/forgeofempires/images/0/00/Forge.png");
+    background-repeat: no-repeat;
+    background-size: 1em;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+}
+
+.medals {
+    background-image: url("https://vignette.wikia.nocookie.net/forgeofempires/images/4/43/Medals.png");
+    background-repeat: no-repeat;
+    background-size: 1em;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+}
+
+.bp {
+    background-image: url("https://vignette.wikia.nocookie.net/forgeofempires/images/9/98/Blueprint.png");
+    background-repeat: no-repeat;
+    background-size: 1em;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
 }

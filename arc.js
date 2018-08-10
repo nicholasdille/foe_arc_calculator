@@ -123,14 +123,19 @@ function displayLevel() {
 
     data.p1.safe = data.rp - 2 * data.p1.rp2 + 1;
     if (data.p1.safe < 0) data.p1.safe = 0;
+
     data.p2.safe = data.rp - data.p1.rp2 - 2 * data.p2.rp2 + 1 - data.p1.safe;
     if (data.p2.safe < 0) data.p2.safe = 0;
+
     data.p3.safe = data.rp - data.p1.rp2 - data.p2.rp2 - 2 * data.p3.rp2 + 1 - data.p1.safe - data.p2.safe;
     if (data.p3.safe < 0) data.p3.safe = 0;
+
     data.p4.safe = data.rp - data.p1.rp2 - data.p2.rp2 - data.p3.rp2 - 2 * data.p4.rp2 + 1 - data.p1.safe - data.p2.safe - data.p3.safe;
     if (data.p4.safe < 0) data.p4.safe = 0;
+
     data.p5.safe = data.rp - data.p1.rp2 - data.p2.rp2 - data.p3.rp2 - data.p4.rp2 - 2 * data.p5.rp2 + 1 - data.p1.safe - data.p2.safe - data.p3.safe - data.p4.safe;
     if (data.p5.safe < 0) data.p5.safe = 0;
+
     data.safe_rest = data.rp - data.p1.rp2 - data.p1.safe - data.p2.rp2 - data.p2.safe - data.p3.rp2 - data.p3.safe - data.p4.rp2 - data.p4.safe - data.p5.rp2 - data.p5.safe;
     if (data.safe_rest < 0) data.safe_rest = 0;
 
@@ -143,13 +148,39 @@ function displayLevel() {
     document.getElementById('p1234_rp2_safe').innerText = '+' + data.p4.safe;
     document.getElementById('p12345_rp2_safe').innerText = '+' + data.p5.safe;
     document.getElementById('p12345_rp2_rest').innerText = '+' + data.safe_rest;
+
+    document.getElementById('p1_rp').innerText = data.p1.rp;
+    document.getElementById('p1_medals').innerText = data.p1.medals;
+    document.getElementById('p1_bp').innerText = data.p1.bp;
+
+    document.getElementById('p2_rp').innerText = data.p2.rp;
+    document.getElementById('p2_medals').innerText = data.p2.medals;
+    document.getElementById('p2_bp').innerText = data.p2.bp;
+
+    document.getElementById('p3_rp').innerText = data.p3.rp;
+    document.getElementById('p3_medals').innerText = data.p3.medals;
+    document.getElementById('p3_bp').innerText = data.p3.bp;
+
+    document.getElementById('p4_rp').innerText = data.p4.rp;
+    document.getElementById('p4_medals').innerText = data.p4.medals;
+    document.getElementById('p4_bp').innerText = data.p4.bp;
+
+    document.getElementById('p5_rp').innerText = data.p5.rp;
+    document.getElementById('p5_medals').innerText = data.p5.medals;
+    document.getElementById('p5_bp').innerText = data.p5.bp;
 }
 
-function showInfo() {
-    var x = document.getElementById("info");
-    if (x.style.display === "none") {
-        x.style.display = "table-row";
-    } else {
-        x.style.display = "none";
+function showInfo(level) {
+    var infos = document.getElementsByClassName("info" + level);
+    for (var i = 0; i < infos.length; ++i) {
+        var info = infos[i];
+        var button = document.getElementById("button" + level)
+        if (info.style.display === "none") {
+            info.style.display = "table-row";
+            button.value = "hide"
+        } else {
+            info.style.display = "none";
+            button.value = "show"
+        }
     }
 }

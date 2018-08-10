@@ -19,7 +19,7 @@
 <table>
     <thead>
         <th>Level</th>
-        <th>FP</th>
+        <th>Gesamt</th>
         <th>P1</th>
         <th>P2</th>
         <th>P3</th>
@@ -31,25 +31,52 @@
     </thead>
     <tr>
         <th><span id="level1"></span></th>
-        <td><span id="research_points"></span></td>
-        <td><span id="p1_rp2"></span></td>
-        <td><span id="p2_rp2"></span></td>
-        <td><span id="p3_rp2"></span></td>
-        <td><span id="p4_rp2"></span></td>
-        <td><span id="p5_rp2"></span></td>
-        <td><span id="rp2_rest"></span></td>
-        <td><span id="rp2_advantage"></span></td>
-        <td><input type="button" class="button" value="more" onclick="showInfo()"></td>
+        <td><span class="rp"></span><span id="research_points"></span></td>
+        <td><span class="rp"></span><span id="p1_rp2"></span></td>
+        <td><span class="rp"></span><span id="p2_rp2"></span></td>
+        <td><span class="rp"></span><span id="p3_rp2"></span></td>
+        <td><span class="rp"></span><span id="p4_rp2"></span></td>
+        <td><span class="rp"></span><span id="p5_rp2"></span></td>
+        <td><span class="rp"></span><span id="rp2_rest"></span></td>
+        <td><span class="rp"></span><span id="rp2_advantage"></span></td>
+        <td><input type="button" class="button" value="show" onclick="showInfo(1)" id="button1"></td>
     </tr>
-    <tr id="info">
-        <th>Safe</th>
-        <td></td>
-        <td class="center"><span id="p1_rp2_safe">?</span></td>
-        <td class="center"><span id="p12_rp2_safe">?</span></td>
-        <td class="center"><span id="p123_rp2_safe">?</span></td>
-        <td class="center"><span id="p1234_rp2_safe">?</span></td>
-        <td class="center"><span id="p12345_rp2_safe">?</span></td>
-        <td class="center"><span id="p12345_rp2_rest">?</span></td>
+    <tr class="info1" style="display: none;">
+        <th colspan="2">Safe</th>
+        <td class="center"><span class="rp"></span><span id="p1_rp2_safe">?</span></td>
+        <td class="center"><span class="rp"></span><span id="p12_rp2_safe">?</span></td>
+        <td class="center"><span class="rp"></span><span id="p123_rp2_safe">?</span></td>
+        <td class="center"><span class="rp"></span><span id="p1234_rp2_safe">?</span></td>
+        <td class="center"><span class="rp"></span><span id="p12345_rp2_safe">?</span></td>
+        <td class="center"><span class="rp"></span><span id="p12345_rp2_rest">?</span></td>
+    </tr>
+    <tr class="info1" style="display: none;">
+        <th colspan="2">Rewards</th>
+        <td class="center">
+            <span class="rp"></span><span id="p1_rp">?</span>
+            <span class="medals"></span><span id="p1_medals">?</span>
+            <span class="bp"></span><span id="p1_bp">?</span>
+        </td>
+        <td class="center">
+            <span class="rp"></span><span id="p2_rp">?</span>
+            <span class="medals"></span><span id="p2_medals">?</span>
+            <span class="bp"></span><span id="p2_bp">?</span>
+        </td>
+        <td class="center">
+            <span class="rp"></span><span id="p3_rp">?</span>
+            <span class="medals"></span><span id="p3_medals">?</span>
+            <span class="bp"></span><span id="p3_bp">?</span>
+        </td>
+        <td class="center">
+            <span class="rp"></span><span id="p4_rp">?</span>
+            <span class="medals"></span><span id="p4_medals">?</span>
+            <span class="bp"></span><span id="p4_bp">?</span>
+        </td>
+        <td class="center">
+            <span class="rp"></span><span id="p5_rp">?</span>
+            <span class="medals"></span><span id="p5_medals">?</span>
+            <span class="bp"></span><span id="p5_bp">?</span>
+        </td>
     </tr>
 </table>
 
